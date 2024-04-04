@@ -1,0 +1,145 @@
+body
+ {  
+    background-image: url(ein.gif);
+    image-resolution: 1080;
+
+    background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-sizing: border-box;
+      overflow-y: scroll;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: auto;
+      width: 100%;
+}
+
+ul{
+  font-size: 20px;
+}
+
+.Logo{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.Logo img{
+  left: 40%;
+  position: relative;
+}
+
+img {
+  background-image: url("c:/Users/sakthivel prabakar/Downloads/logo_ein-removebg-preview.png");
+  justify-content: center;
+
+}
+
+.button-div{
+  width: 50%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+
+
+h1{
+ 
+  color: aliceblue;
+  text-align: center;
+}
+
+h2{
+  color: antiquewhite;
+  text-align: center;
+  text-shadow: 2px;
+}
+a:link {
+text-emphasis-color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(164, 180, 176);
+
+}
+container {
+  height: 50px;
+  position: relative;
+  border: 3px solid rgb(175, 192, 175);
+}
+header{
+  text-align: center;
+  padding-left: 32;
+  box-sizing: content-box;
+  display: block;
+  
+a:link {
+  
+  background-color: rgb(197, 193, 195);
+ text-align: center;
+ 
+}
+  a:visited {
+  background-color: rgb(227, 231, 231);
+  text-align: center;
+
+}
+
+a:hover {
+  background-color: rgb(228, 240, 228);
+}
+
+a:active {
+  background-color: rgb(248, 229, 240);
+} }
+.nav-menu{
+  position: fixed;
+ 
+  left: 18px;
+  font-weight: 300;
+
+}
+.nav-menu a{
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+}
+
+
+.hide{
+  display: none;
+}
+
+/* for Desktop view  */
+@media screen and (min-width:400px){
+  .navbar{
+      justify-content: space-around;
+  }
+  .nav-menu{
+      display: block;
+      position: static;
+      width: auto;
+      margin-right:20px;
+      background: none;
+  }
+  .nav-menu a{
+      display: inline-block;
+      padding: 15px 20px;
+  }
+  .nav-menu a:hover{
+      border-radius: 5px;
+  }
+  .hamburger-menu{
+      display: none;
+  }
+}
+a {
+  text-align:center;
+  
+}
+
+
